@@ -1,0 +1,77 @@
+form {
+  position: absolute;
+	text-align:center;
+}
+.heading {
+  position: absolute;
+  text-align:center;
+  color:white;
+  font-family:'Antic Slab',serif;
+  font-size: 30px;
+}
+.name {
+  position: absolute;
+  text-align:center;
+  color:white;
+  font-family:'Antic Slab',serif;
+  font-size: 14px;
+}
+div {
+  text-align:center;
+}
+.centering {
+	text-align:center;
+	margin:auto;
+}
+.container2
+{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container3
+{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.container{
+  width: 88.5%;
+  text-align: center;
+}
+a.button1{
+	position:absolute;
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
+}
+a.button1:hover{
+	color:#000000;
+  text-align:center;
+	background-color:#FFFFFF;
+}
+@media all and (max-width:20em){
+	a.button1{
+    text-align:center;
+    display: block;
+		margin:0.4em auto;
+ }
+}
+.screen{
+position: relative;
+}
+.innerdiv {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
